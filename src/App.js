@@ -262,7 +262,7 @@ function App() {
                 <s.TextTitle
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  first 1000 pieces are free - then minting price is {CONFIG.DISPLAY_COST}{" "}
+                  minting price is {CONFIG.DISPLAY_COST}{" "}
                   {CONFIG.NETWORK.SYMBOL} per nft 
                 </s.TextTitle>
                 
