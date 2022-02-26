@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0x8ad7b81d23cf3301b3134ce97798a83f555f6213",
+  "SCAN_LINK": "https://etherscan.io/address/0x8ad7b81d23cf3301b3134ce97798a83f555f6213",
+  "NETWORK": {
+    "NAME": "ethereum mainnet",
+    "SYMBOL": "ETH",
+    "ID": 1
+  },
+  "NFT_NAME": "V4Apes",
+  "SYMBOL": "V4Apes",
+  "MAX_SUPPLY": 10000,
+  "WEI_COST": 1000000000000,
+  "DISPLAY_COST": 0.0,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "Opensea",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/v4apes",
+  "SHOW_BACKGROUND": true
+}
