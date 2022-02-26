@@ -392,6 +392,15 @@ function App() {
             successfully mint your NFT. We recommend that you don't lower the
             gas limit.
           </s.TextDescription>
+ <s.SpacerSmall />
+          <s.TextDescription
+            style={{
+              textAlign: "center",
+              color: "var(--primary-text)",
+            }}
+          >
+            contract is erc-721a which is very efficient. you can max mint wile only paying gas for (almost) only 1 tx - LFG!
+          </s.TextDescription>
         </s.Container>
       </s.Container>
     </s.Screen>
