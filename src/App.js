@@ -262,14 +262,15 @@ function App() {
                 <s.TextTitle
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  minting price is {CONFIG.DISPLAY_COST}{" "}
-                  {CONFIG.NETWORK.SYMBOL} per nft 
+                 minting is FREE
+                  // minting price is {CONFIG.DISPLAY_COST}{" "}
+                 // {CONFIG.NETWORK.SYMBOL} per nft 
                 </s.TextTitle>
                 
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  excluding gas fees
+                 you only pay gas fees
                 </s.TextDescription>
                 <s.SpacerSmall />
                 {blockchain.account === "" ||
