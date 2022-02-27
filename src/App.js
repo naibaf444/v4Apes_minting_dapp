@@ -263,8 +263,7 @@ function App() {
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
                  minting is FREE
-                  // minting price is {CONFIG.DISPLAY_COST}{" "}
-                 // {CONFIG.NETWORK.SYMBOL} per nft 
+                 
                 </s.TextTitle>
                 
                 <s.TextDescription
