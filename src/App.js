@@ -262,7 +262,7 @@ function App() {
                 <s.TextTitle
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                 minting is FREE
+                 minting of up to 10 Apes per wallet is FREE - 
                  
                 </s.TextTitle>
                 
@@ -272,6 +272,14 @@ function App() {
                  you only pay gas fees
                 </s.TextDescription>
                 <s.SpacerSmall />
+
+ <s.TextDescription
+                  style={{ textAlign: "center", color: "var(--accent-text)" }}
+                >
+                 pls don't try to mint more than 10 per wallet, if you do tx will fail!
+                </s.TextDescription>
+                <s.SpacerSmall />
+
                 {blockchain.account === "" ||
                 blockchain.smartContract === null ? (
                   <s.Container ai={"center"} jc={"center"}>
