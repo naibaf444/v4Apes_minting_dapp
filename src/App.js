@@ -262,7 +262,8 @@ function App() {
                 <s.TextTitle
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                 minting of up to 10 Apes per wallet is FREE - 
+                 minting price is {CONFIG.DISPLAY_COST}{" "}
+                 {CONFIG.NETWORK.SYMBOL} per nft 
                  
                 </s.TextTitle>
                 
@@ -276,7 +277,7 @@ function App() {
  <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                 pls don't try to mint more than 10 per wallet, if you do tx will fail!
+                 
                 </s.TextDescription>
                 <s.SpacerSmall />
 
