@@ -270,7 +270,7 @@ function App() {
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                 you only pay gas fees
+                 plus gas fees
                 </s.TextDescription>
                 <s.SpacerSmall />
 
