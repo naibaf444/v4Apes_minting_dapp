@@ -165,8 +165,8 @@ function App() {
 
   const incrementMintAmount = () => {
     let newMintAmount = mintAmount + 1;
-    if (newMintAmount > 10) {
-      newMintAmount = 10;
+    if (newMintAmount > 20) {
+      newMintAmount = 20;
     }
     setMintAmount(newMintAmount);
   };
@@ -408,7 +408,7 @@ function App() {
               color: "var(--primary-text)",
             }}
           >
-            contract is erc-721a which is very efficient. you can max mint wile only paying gas for (almost) only 1 tx - LFG!
+            contract is erc-721a which is very efficient. you can max mint while only paying gas for (almost) only 1 tx - LFG!
           </s.TextDescription>
         </s.Container>
       </s.Container>
